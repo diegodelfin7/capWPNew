@@ -10,11 +10,14 @@
 </head>
 <body>
 	<div id="landing-video" class=" text-center">
-		<div class="title-landing-video">TECNOLOGÍA</div>
-		<div class="description-landing-video">LA INNOVACIÓN ESTA EN NUESTRA SANGRE</div>
-		<a data-toggle="modal" class="btn-landing-playvideo" data-target="#ModalYTCat"><img src="public/img/boton-play.png" height="112" width="112"></a>
+		<img src="public/img/fondo-video.jpg"  class="img-fondo"/>
+		<div class="landing-central">
+			<div class="title-landing-video">TECNOLOGÍA</div>
+			<div class="description-landing-video">LA INNOVACIÓN ESTA EN NUESTRA SANGRE</div>
+			<div data-toggle="modal" class="btn-landing-playvideo" data-target="#ModalYTCat"><img src="public/img/boton-play.png"></div>
+		</div>
 	</div>
-	<div id="landing-blockthumb">
+	<div id="landing-blockthumb" class="hidden-xs hidden-sm">
 		<div class="container text-center inner-blockthumb">
 			<div class="col-md-3 col-lg-3">
 				<div class="block-thumb">
@@ -49,13 +52,25 @@
 
 	<div class="srx contZapt">
 		<figure>
-			<img src="public/img/srx.png" alt="">			
+			<img src="public/img/srx.png" alt="">
 		</figure>
 		<div class="srx-title title">SRX</div>
+		<div class="flecha">
+			<span class="glyphicon glyphicon-triangle-left izq"></span>
+			<span class="glyphicon glyphicon-triangle-right der"></span>
+		</div>
+		<div class="contLogo">
+			<img src="public/img/logo-srx.png">
+		</div>
+		<div class="text-center">
 
+			<a class="containerbtn text-center btnDescubre">
+				DESCUBRE MÁS AQUÍ
+			</a>
+		</div>
 	</div>
-	
-	<div class="srx-more">
+
+	<div class="srx-more hidden-sm  hidden-xs">
 		<div class="container text-center">
 			<div class="col-md-4">
 				<div class="block-srx-more">
@@ -83,11 +98,24 @@
 
 	<div class="itech contZapt">
 		<figure>
-			<img src="public/img/itech.png" alt="">			
-		</figure>		
+			<img src="public/img/itech.png" alt="">
+		</figure>
 		<div class="itech-title title">ITECHNOLOGY</div>
+		<div class="flecha">
+			<span class="glyphicon glyphicon-triangle-left izq"></span>
+			<span class="glyphicon glyphicon-triangle-right der"></span>
+		</div>
+		<div class="contLogo">
+			<img src="public/img/logo-itech.png">
+		</div>
+		<div class="text-center">
+
+			<a class="containerbtn text-center btnDescubre">
+				DESCUBRE MÁS AQUÍ
+			</a>
+		</div>
 	</div>
-	<div class="itech-more">
+	<div class="itech-more hidden-sm  hidden-xs">
 		<div class="container text-center">
 			<div class="col-md-4">
 				<div class="block-itech-more">
@@ -115,11 +143,24 @@
 
 	<div class="ergo contZapt">
 		<figure>
-			<img src="public/img/ergo.png" alt="">			
-		</figure>		
+			<img src="public/img/ergo.png" alt="">
+		</figure>
 		<div class="ergo-title title">ERGO</div>
+		<div class="flecha">
+			<span class="glyphicon glyphicon-triangle-left izq"></span>
+			<span class="glyphicon glyphicon-triangle-right der"></span>
+		</div>
+		<div class="contLogo">
+			<img src="public/img/logo-ergo.png">
+		</div>
+		<div class="text-center">
+
+			<a class="containerbtn text-center btnDescubre">
+				DESCUBRE MÁS AQUÍ
+			</a>
+		</div>
 	</div>
-	<div class="ergo-more">
+	<div class="ergo-more hidden-sm hidden-xs">
 		<div class="container text-center">
 			<div class="col-md-4">
 				<div class="block-ergo-more">
@@ -147,12 +188,25 @@
 
 	<div class="ergo-lite  contZapt">
 		<figure>
-			<img src="public/img/ergolite.png" alt="">			
-		</figure>		
+			<img src="public/img/ergolite.png" alt="">
+		</figure>
 		<div class="ergo-lite-title title">ERGO LITE</div>
-		
+		<div class="flecha">
+			<span class="glyphicon glyphicon-triangle-left izq"></span>
+			<span class="glyphicon glyphicon-triangle-right der"></span>
+		</div>
+		<div class="contLogo">
+			<img src="public/img/logo-ergolite.png">
+		</div>
+		<div class="text-center">
+
+			<a class="containerbtn text-center btnDescubre">
+				DESCUBRE MÁS AQUÍ
+			</a>
+		</div>
+
 	</div>
-	<div class="ergo-lite-more">
+	<div class="ergo-lite-more hidden-sm  hidden-xs">
 		<div class="container text-center">
 			<div class="col-md-4">
 				<div class="block-ergo-lite-more">
@@ -183,70 +237,69 @@
 			FEATURES Y TECNOLOGÍAS
 		</div>
 		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-4">
+
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">Punta COMPUESTA</div>
 						<img src="public/img/feature1.jpg" alt="" />
 						<div class="itemdes-feat-tech">PUNTA NO METÁLICA INDETECTABLE EN LUGARES DE SEGURIDAD ELECTRÓNICA</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">PUNTA DE ACERO</div>
 						<img src="public/img/feature2.jpg" alt="" />
 						<div class="itemdes-feat-tech">PUNTA ULTRA RESISTENTE CONTRA IMPACTOS Y COMPRESIONES</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">RESISTENCIA AL GUA</div>
 						<img src="public/img/feature3.jpg" alt="" />
 						<div class="itemdes-feat-tech">MANTIENE LA HUMEDAD FUERA CON CUEROS Y COSTURAS IMPERMEABLES</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
+
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">RIESGO ELÉCTRICO</div>
 						<img src="public/img/feature4.jpg" alt="" />
 						<div class="itemdes-feat-tech">PROTECCIÓN CONTRA CIRCUITOS ABIERTOS HASTA 18.000 VOLTIOS</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">ANTIDESLIZANTE</div>
 						<img src="public/img/feature5.jpg" alt="" />
 						<div class="itemdes-feat-tech">SUELA CON REDUCCIÓN DE REISGO ANTE CAÍDAS Y RESBALONES</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6 col-xs-6">
 					<div class="item-feat-tech">
 						<div class="itemtit-feat-tech">DISIPACIÓN ESTÁTICA</div>
 						<img src="public/img/feature6.jpg" alt="" />
 						<div class="itemdes-feat-tech">REDUCEN AL MINIMO LA ACUMULACIÓN DE ELECTRICIDAD ESTÁTICA</div>
 					</div>
-				</div>	
-			</div>
+				</div>
+
 		</div>
 	</div>
-	<div class="form-contact">
-		<div class="container">
+	<div class="form-contact text-center">
+		<div class="container col-sm-9 col-xs-9 formulario">
 			<div class="text-center title-form-contact">CONTÁCTANOS</div>
 			<form>
-				<div class="form-group">
+				<div class="form-group text-left">
 					<input type="text" placeholder="NOMBRE" class="form-control css-placeholder" id="nameFormContact" />
 				</div>
-				<div class="form-group">
+				<div class="form-group text-left">
 					<input type="email" placeholder="MAIL" class="form-control css-placeholder" />
 				</div>
-				<div class="form-group">
+				<div class="form-group text-left">
 					<textarea rows="9" cols="50" placeholder="DESCRIPCIÓN"  class="form-control css-placeholder" ></textarea>
 				</div>
-				<div class="form-group">
+				<div class="form-group text-left">
 	   				<div class="text-center">
-	        			<button type="submit" class="btnsubmit-form">Enviar</button>
+	        			<button type="submit" class="btnsubmit-form">ENVIAR</button>
 	    			</div>
 				</div>
 			</form>
